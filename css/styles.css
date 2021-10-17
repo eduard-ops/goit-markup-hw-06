@@ -859,15 +859,12 @@ a {
 }
 
 .mod-input:focus,
-.mod-input:hover,
-.form-textarea:hover,
 .form-textarea:focus {
   border: 1px solid var(--accent-color);
   outline: none;
 }
 
-.mod-input:focus + .input-icon,
-.mod-input:hover + .input-icon {
+.mod-input:focus + .input-icon {
   fill: var(--accent-color);
 }
 
