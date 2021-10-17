@@ -589,6 +589,13 @@ a {
   color: var(--rare-color);
 }
 
+.input-footer::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer-form-button {
   max-width: 200px;
   height: 50px;
@@ -876,6 +883,13 @@ a {
   letter-spacing: 0.01em;
 }
 
+.form-textarea::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .form-link {
   font-size: 14px;
   line-height: 1.71;
@@ -939,12 +953,3 @@ a {
   background-size: contain;
   background-origin: border-box;
 }
-
-/* .form-checkbox:focus + .checkbox,
-.form-checkbox:hover + .checkbox {
-  fill: var(--accent-color);
-} */
-
-/* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
